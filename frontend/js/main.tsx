@@ -1,14 +1,16 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { createBrowserHistory } from 'history';
-const axios = require('axios');
 import { HashRouter as Router } from 'react-router-dom';
-import config from './serverConfig';
 const { MuiThemeProvider } = require('@material-ui/core/styles');
+const axios = require('axios');
 import * as cookie from 'js-cookie';
-import theme from './theme';
+
 import Routes from './components/app/Routes';
+import theme from './theme';
 import './css/leaflet.css'
+import config from './serverConfig';
+
 const browserHistory: any = createBrowserHistory();
 
 export default class App extends React.Component<any, any> {
