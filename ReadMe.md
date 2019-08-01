@@ -1,6 +1,7 @@
 ##### Search Location
-*Ruby on rails + React +  Webpack + React-leaflet + Postrgres
-*
+
+Ruby on rails + React +  Webpack + React-leaflet + Postrgres
+
 ###### **Getting Started**
 
 ###### Frontend
