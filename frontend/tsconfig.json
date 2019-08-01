@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "lib": ["es2017", "dom"],
+      "baseUrl": ".",
+      "allowSyntheticDefaultImports": true,
+      "paths": {
+        "*": [
+          "*",
+          "js/*"
+        ]
+      }
+    },
+    "include": [
+    //   "./alconfig.ts",
+      "js/*.ts",
+      "js/**/*.ts",
+      "js/**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+  }
+  
