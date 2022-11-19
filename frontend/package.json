@@ -46,7 +46,7 @@
     "react-perfect-scrollbar": "^1.5.3",
     "react-router": "5.0.1",
     "react-router-dom": "5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "recompose": "0.30.0",
     "slug": "1.1.0",
     "tpl-loader": "0.2.1",
